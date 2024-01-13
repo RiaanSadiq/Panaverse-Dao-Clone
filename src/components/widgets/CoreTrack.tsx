@@ -44,7 +44,7 @@ const CoreTrack = () => {
          { coreTrackData.map((item,i)=>{ 
             return(
               <Quater 
-               header={item.header} description={item.description} number={i+1} />
+              key={item.number} header={item.header} description={item.description} number={i+1} />
               )
              })
           }

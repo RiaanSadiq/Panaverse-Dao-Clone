@@ -28,6 +28,7 @@ const CoreTrack = () => {
         <div className="max-w-screen-md">
 
           <h4 className=" font-semibold text-primary text-lg mt-4">PROGRAM OF STUDIES</h4>
+          <div className=" absolute blur-[150px] -z-20 bg-primary w-64 h-64 rounded-full  "></div>
           <h2 className="sm:text-5xl font-bold text-4xl whitespace-pre-line ">{header}</h2>
           <p className="mt-3 text-xl text-slate-600">Every participant of the program will start by completing the following three core courses.</p>
           <div className="mt-6">
